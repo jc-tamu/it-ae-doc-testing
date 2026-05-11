@@ -1,6 +1,6 @@
 ---
 title: Testing-
-draft: true
+draft: false
 ---
 ## Another test point
 

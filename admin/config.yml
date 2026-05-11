@@ -1,0 +1,11 @@
+backend:
+  name: github
+  branch: main
+  repo: "jc-tamu/it-ae-doc-testing"
+  base_url: http://decap-test.tamu-lab.workers.dev
+  auth_endpoint: /auth
+
+site_url: https://jc-tamu.github.io/it-ae-doc-testing/
+
+publish_mode: editorial_workflow
+media_folder: static/img

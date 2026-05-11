@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: main
+  branch: gh-pages
   repo: "jc-tamu/it-ae-doc-testing"
   base_url: http://decap-test.tamu-lab.workers.dev
   auth_endpoint: /auth

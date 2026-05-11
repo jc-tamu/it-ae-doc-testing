@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://jc-tamu.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '//it-ae-doc-testing/',
+  baseUrl: '/it-ae-doc-testing/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jc-tamu', // Usually your GitHub org/user name.
+  projectName: 'it-ae-doc-testing', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 

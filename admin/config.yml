@@ -17,6 +17,12 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     slug: "{{slug}}"
     description: "Documentation pages"
+    nested:
+      depth: 100
+      summary: "{{title}}"
+      subfolders: true
+    meta: { path: { widget: string, label: "Path", index_file: "index" } }
+
     editor:
       visualEditing: true
     sortable_fields:
@@ -26,6 +32,11 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - {
+          label: "Sidebar Position",
+          name: "sidebar_position",
+          widget: "number",
+        }
       - {
           label: "Body",
           name: "body",
